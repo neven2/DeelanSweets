@@ -1,0 +1,23 @@
+
+.category-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.category p{
+  text-align: center;
+  padding: 20px;
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+ .category p{
+
+  padding: 10px;
+  font-size: 13px;
+
+}
+}
